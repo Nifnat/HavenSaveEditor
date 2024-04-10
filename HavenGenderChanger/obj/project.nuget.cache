@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8sfF/APMJ3EKfd0UzZ0rWPa/D24vlOC+5+J8uHjb+3ItPjDy55XMIoYh4jKyyWpwT9+jG88TkOVr9BgxqAYehA==",
+  "dgSpecHash": "qPiNGRMa37j8H32n+2UsAqTnp9unGo2eU2U5A+mzwIhNpmijN+QS/rOnLkVqzIKphrrRjKkWReJBNA5UOWrHIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nif\\source\\repos\\HavenGenderChanger\\HavenGenderChanger\\HavenGenderChanger.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Nif\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

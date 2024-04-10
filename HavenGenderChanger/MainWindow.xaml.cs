@@ -174,6 +174,7 @@ namespace HavenGenderChanger
                     ProcessDecryptedFile(selectedFilePath, decryptedJson, true, "WW", 2, "WW");
                     break;
             }
+            MessageBox.Show("File saved successfully.");
         }
     }
 }
