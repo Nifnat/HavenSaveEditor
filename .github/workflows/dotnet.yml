@@ -26,3 +26,9 @@ jobs:
       run: dotnet build --no-restore --property:EnableWindowsTargeting=true --property:platform="Any CPU" --property:configuration="Release"
     - name: publish
       run: 	dotnet publish -r win-x86 --self-contained --property:EnableWindowsTargeting=true
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: dist-without-markdown
+        path: |
+          /home/runner/work/HavenSaveEditor/HavenSaveEditor/HavenGenderChanger/bin/Release/net8.0-windows
