@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore --property:EnableWindowsTargeting=true --property:platform="Any CPU" --property:configuration="Release"
     - name: publish
-      run: 	dotnet publish -r win-x86 --self-contained 
+      run: 	dotnet publish -r win-x86 --self-contained --property:EnableWindowsTargeting=true
