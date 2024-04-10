@@ -23,4 +23,4 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore --property:EnableWindowsTargeting=true
     - name: Build
-      run: dotnet build --no-restore --property:EnableWindowsTargeting=true
+      run: dotnet build --no-restore --property:EnableWindowsTargeting=true --property:platform="Any CPU" --property:configuration="Release"
